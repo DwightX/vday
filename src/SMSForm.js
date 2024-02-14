@@ -6,7 +6,7 @@ class SMSForm extends Component {
     super(props);
     this.state = {
       message: {
-        to: '8134055149',
+        to: '7274880327',
         body: 'Thank you for still being my valentine on valentines day :) I Love you sweatheart 😘',
         willBeMyValentine: ''
       },
