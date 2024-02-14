@@ -1,0 +1,78 @@
+.sms-form {
+  text-align: left;
+  padding: 1em;
+}
+.sms-form label {
+  display: block;
+}
+.sms-form input,
+.sms-form textarea {
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+.sms-form div {
+  margin-bottom: 0.5em;
+}
+.sms-form button {
+  font-size: 1em;
+  width: 100%;
+}
+.sms-form.error {
+  outline
+  : 2px solid #f00;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://ichef.bbci.co.uk/news/1024/cpsprodpb/5850/production/_120380622_e-vv9h4x0aalboz.jpg.webp');
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-color: rgba(255, 0, 0, 0.5); /* Red color with 50% opacity */
+}
+
+.container {
+  /* width: 500px; */
+  /* height: 250px; */
+  /* margin: 50px; */
+  /* outline: solid 1px black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sms-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white; /* Change text color to white */
+}
+
+.circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: red; /* Change button background color to red */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle button {
+  background-color: red; /* Change button background color to red */
+  color: white; /* Change button text color to white */
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.circle button:hover {
+  background-color: darkred; /* Change button background color on hover */
+}
