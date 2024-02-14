@@ -8,7 +8,7 @@ class SMSForm extends Component {
       message: {
         to: '7274880327',
         body: 'Thank you for still being my valentine on valentines day :) I Love you sweatheart 😘',
-        willBeMyValentine: ''
+        // willBeMyValentine: ''
       },
       submitting: false,
       error: false,
