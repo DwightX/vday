@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './SMSForm.css';
-import { ParallaxProvider } from 'react-scroll-parallax';
 
 class SMSForm extends Component {
   constructor(props) {
